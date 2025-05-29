@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Your Routine - Ordinary Care</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>Ordinary Care</header>
+  <main>
+    <div class="card">
+      <h2>Personalized Skincare Routine</h2>
+      <label for="skinType">Skin Type:</label>
+      <select id="skinType">
+        <option value="oily">Oily</option>
+        <option value="dry">Dry</option>
+        <option value="combination">Combination</option>
+        <option value="sensitive">Sensitive</option>
+      </select>
+
+      <label for="skinGoal">Skin Goal:</label>
+      <select id="skinGoal">
+        <option value="hydration">Hydration</option>
+        <option value="brightening">Brightening</option>
+        <option value="acne">Acne Control</option>
+        <option value="antiaging">Anti-Aging</option>
+      </select>
+
+      <button id="getRoutineBtn">Get Routine</button>
+      <div id="routine-output"></div>
+      <img id="routine-image" class="routine-img" src="" alt="" style="display:none; margin-top: 1rem;">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
